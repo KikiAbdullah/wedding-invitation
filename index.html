@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id" class="notranslate" translate="no">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta name="color-scheme" content="light only">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="google" content="notranslate">
+      <title>Wedding  - Trie Siwi & Kiki Rizka</title>
+      <meta name="title" content="Wedding  - Trie Siwi & Kiki Rizka">
+      <meta name="description" content="undangan Trie Siwi & Kiki Rizka">
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Wedding  - Trie Siwi & Kiki Rizka">
+      <meta property="og:description" content="undangan Trie Siwi & Kiki Rizka">
+      <meta property="og:image" content="images/maroon-and-blue.jpg">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+      <!-- css -->
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="css/themesv2.css" rel="stylesheet">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=MonteCarlo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+         :root {
+         --inv-bg: #eeded4;
+         --inv-base: #8e3c4c;
+         --inv-accent: #4675a3;
+         --inv-border: #fcdeba;
+         --font-base: "Open Sans", sans-serif;
+         --font-accent: "Kalnia", serif;
+         --font-latin: "MonteCarlo", cursive;
+         --menu-bg: #fff9f5;
+         --menu-inactive: #8e3c4c;
+         --menu-active: #4675a3;
+         --btn-color: #ffffff;
+         }
+      </style>
+      <style>
+         @import  url('css/BrittanySignature.css');
+         @import  url('css/fonts.css');
+         @import  url('css/Heatwood.css');
+         .font-brittany-signature {
+         font-family: 'Brittany Signature';
+         line-height: 1.6 !important;
+         }
+         .font-photograph-signature {
+         font-family: 'Photograph Signature';
+         line-height: 1.6 !important;
+         }
+         .font-heatwood {
+         font-family: 'Heatwood';
+         line-height: 3 !important;
+         }
+      </style>
+   </head>
+   <body>
+      <main id="app">
+         <div id="modalOverlay" class="modal-backdrop fade" style="display: none;"></div>
+         <!-- Loader -->
+         <div id="loader" class="loader-wrapper"><span class="loader"><span class="loader-inner"></span></span></div>
+         <!-- music -->
+         <audio id="music" loop="" autoplay="">
+            <source src="media/wahai_kau.mp3">
+         </audio>
+         <!-- end music -->
+         <div id="workspace-container" class="position-fixed h-100 w-100" style="overflow: hidden">
+            <div id="panZoom" class="position-fixed h-100 w-100" style="top: 0; right:0; bottom:0; left:0; transform-origin: 50% 50%;">
+               <div class="h-100 w-100 d-flex align-items-center justify-content-center">
+                  <div class="canvas not-open">
+                     <!-- invitation -->
+                     <div id="towerBarat" data-guest="Nama Tamu" data-group="VIP">
+                        <div class="towerbarat_track">
+                           <ul class="towerbarat_list">
+                              <li class="towerbarat_slide towerbarat_cover">
+                                 <div class="container-mobile cover" style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="h-100 w-100 d-flex flex-column justify-content-center align-items-center">
+                                       <div class="d-flex justify-content-center animate__animated animate__zoomIn animate__slower image-editable">
+                                          <div class="editable color-accent h3 mb-0 font-weight-bold font-accent" style="font-size:90px;transform:translate(18px, 10px);">S</div>
+                                          <div class="editable color-accent h3 mb-0 font-weight-bold font-accent" style="font-size:90px;transform:translate(-13px, 10px);">K</div>
+                                       </div>
+                                       <div class="editable text-center animate__animated animate__fadeInDown animate__slower font-latin" style="font-size:60px;line-height:1.4;">Siwi &amp; Kiki</div>
+                                       <div class="color-accent editable text-center animate__animated animate__fadeInUp animate__slower font-accent" style="font-size:18px;line-height:1.4;">Save The Date</div>
+                                       <div class="mb-5 color-accent editable text-center animate__animated animate__fadeInUp animate__slower" style="font-size:16px;line-height:1.4;">18 . 10 . 2024</div>
+                                       <div class="text-center">
+                                          <div class="mb-2 editable animate__animated animate__fadeInUp animate__slower" style="font-size:15px;">Kepada Yth<br>Bapak/Ibu/Saudara/i</div>
+                                          <div id="guestNameSlot" class="mb-3 editable h5 font-weight-bold mb-2 animate__animated animate__fadeInUp animate__slower" style="font-size:18px;">Nama Tamu</div>
+                                          <button class="btn-open-invitation btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInUp animate__slow" style="font-size:14px;">Buka Undangan</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="towerbarat_slide">
+                                 <div class="container-mobile " style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height:100%;">
+                                       <div style="width:100%;">
+                                          <div class="d-flex justify-content-center animate__animated animate__zoomIn animate__slower image-editable mb-4">
+                                             <div class="editable color-accent h3 mb-0 font-weight-bold font-accent" style="font-size:90px;transform:translate(18px, 10px);">S</div>
+                                             <div class="editable color-accent h3 mb-0 font-weight-bold font-accent" style="font-size:90px;transform:translate(-13px, 10px);">K</div>
+                                          </div>
+                                          <div class="text-center animate__animated animate__fadeInUp animate__slower">
+                                             <div class="editable quotes mb-3" style="font-size:14.4px;">Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</div>
+                                             <div class="editable font-italic" style="font-size:14.4px;">Surah Ar Ruum : 21</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="towerbarat_slide">
+                                 <div class="container-mobile " style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height:100%;">
+                                       <div style="width:100%;">
+                                          <div class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
+                                             <div class="editable color-accent h4 mb-2 font-weight-bold font-latin" style="font-size:40px;">Trie Siwi Puspitasari</div>
+                                             <div class="editable mb-4" style="font-size: 14.4px;">
+                                                Putri ketiga dari pasangan<br />
+                                                Bapak Suhadi<br />
+                                                dan Ibu Khusnul Yatimah
+                                            </div>
+                                          </div>
+                                          <div class="text-center mb-4 animate__animated animate__zoomIn animate__slower">
+                                             <div class="editable color-accent h4 mb-2 font-latin" style="font-size:40px;">&amp;</div>
+                                          </div>
+                                          <div class="mb-4 text-center animate__animated animate__fadeInRight animate__slower">
+                                             <div class="editable color-accent h4 mb-2 font-weight-bold font-latin" style="font-size:40px;">Kiki Rizka Abdullah</div>
+                                             <div class="editable mb-4" style="font-size: 14.4px;">
+                                                Putra pertama dari pasangan<br />
+                                                Bapak Ari Susanto<br />
+                                                dan Ibu Ida Hidayah
+                                            </div> </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="towerbarat_slide">
+                                 <div class="container-mobile " style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="h-100 w-100 d-flex flex-column justify-content-center align-items-center">
+                                       <div class="w-100 bg-white shadow px-3 py-5" style="border-radius:40rem 40rem 0px 0px;">
+                                          <div class="text-center pt-5 mb-3">
+                                             <div class="editable h4 mb-2 animate__animated animate__fadeInDown animate__slower font-accent" style="font-size:30px;">Akad Nikah</div>
+                                             <div class="my-3 d-flex flex-column justify-content-center align-items-center animate__animated animate__zoomIn animate__slower">
+                                                <div class="editable mb-2" style="font-size:14.4px;width:100px;">Jumat</div>
+                                                <div class="mb-2" style="border-top:2px solid var(--inv-accent);border-bottom:2px solid var(--inv-accent);">
+                                                   <div class="editable font-weight-bold" style="font-size:60px;line-height:1;">18</div>
+                                                </div>
+                                                <div class="editable" style="font-size:14.4px;width:100px;">Oktober 2024</div>
+                                             </div>
+                                             <div class="editable animate__animated animate__fadeInDown animate__slower" style="font-size:14.4px;">Pukul 07.00 WIB - Selesai</div>
+                                          </div>
+                                          <div class="text-center">
+                                             <div class="editable font-weight-bold animate__animated animate__fadeInUp animate__slower" style="font-size:14.4px;">Kediaman Mempelai Wanita</div>
+                                             <div class="editable mb-4 animate__animated animate__fadeInUp animate__slower" style="font-size:14.4px;">Perum Asabri B-29, Nogosari, Pandaan, Kab. Pasuruan, Jawa Timur 67156</div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="towerbarat_slide">
+                                 <div class="container-mobile " style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height:100%;">
+                                       <div style="width:100%;">
+                                          <div>
+                                             <div style="width:85%;margin:auto;border-radius:10px;overflow:hidden;margin-bottom:20px;padding-bottom:80%;position:relative;" class="animate__animated animate__fadeInDown animate__slow">
+                                                <iframe width="100%" height="100%" style="border:0;position:absolute;" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.385447348223!2d112.71291377480306!3d-7.641633175587366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7dbc611beaf89%3A0x66e43f921329536f!2sPak%20suhadi!5e0!3m2!1sen!2sid!4v1726287717419!5m2!1sen!2sid" class="maps-embed">
+                                                </iframe>
+                                             </div>
+                                             <div class="text-center animate__animated animate__fadeInUp animate__slow">
+                                                <div class="editable font-weight-bold font-accent" style="font-size:30px;">Kediaman Mempelai Wanita</div>
+                                                <div class="editable mb-3" style="font-size:14.4px;">Perum Asabri B-29, Nogosari, Pandaan, Kab. Pasuruan, Jawa Timur 67156</div>
+                                                <a href="https://maps.app.goo.gl/6qAP8QXWy6dwhwsg7" class="btn-maps-link btn btn-primary rounded-pill mb-4 animate__animated animate__fadeInUp animate__slow" target="_blank" rel="noreferrer noopener">Petunjuk Ke Lokasi</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="towerbarat_slide">
+                                 <div class="container-mobile " style="background-image: url(images/bg.webp); ;">
+                                    <div class="frame">
+                                       <img class="frame-tl animate__animated animate__fadeInTopLeft animate__slower" src="images/tl.webp" alt="frame">
+                                       <img class="frame-tr animate__animated animate__fadeInTopRight animate__slower" src="images/tr.webp" alt="frame">
+                                       <img class="frame-bl animate__animated animate__fadeInBottomLeft animate__slower" src="images/bl.webp" alt="frame">
+                                       <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower" src="images/br.webp" alt="frame">
+                                    </div>
+                                    <div class="watermark d-flex justify-content-center align-items-center" style="height:100%;">
+                                       <div>
+                                          <div class="text-center">
+                                             <div class="editable quotes mb-3 px-5 animate__animated animate__fadeInDown animate__slower" style="font-size:14.4px;">Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do'a restu kepada kedua mempelai.</div>
+                                             <div class="editable font-italic animate__animated animate__fadeInDown animate__slow">Hormat Kami Yang Mengundang</div>
+                                             <div class="editable h4 color-accent animate__animated animate__fadeInDown animate__slow font-accent" style="font-size:30px;">Trie Siwi &amp; Kiki Rizka</div>
+                                             <div class="watermark-placeholder mt-5"></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="smMenu" class="towerbarat_menu">
+                        <ul class="towerbarat_menu_list">
+                           <li class="towerbarat_menu_item">
+                              <i class="icon ph-fill ph-house" style="color: currentColor;"></i>
+                              <span>Opening</span>
+                           </li>
+                           <li class="towerbarat_menu_item">
+                              <i class="icon ph-fill ph-quotes" style="color: currentColor;"></i>
+                              <span>Quotes</span>
+                           </li>
+                           <li class="towerbarat_menu_item">
+                              <i class="icon ph-fill ph-heart" style="color: currentColor;"></i>
+                              <span>Mempelai</span>
+                           </li>
+                           <li class="towerbarat_menu_item">
+                              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3 16.87V9.257h18v7.674C21 20.07 19.024 22 15.863 22H8.127C4.996 22 3 20.03 3 16.87Zm4.96-2.46a.822.822 0 0 1-.85-.799c0-.46.355-.84.81-.861.444 0 .81.351.82.8a.822.822 0 0 1-.78.86Zm4.06 0a.822.822 0 0 1-.85-.799c0-.46.356-.84.81-.861.445 0 .81.351.82.8a.822.822 0 0 1-.78.86Zm4.03 3.68a.847.847 0 0 1-.82-.85.831.831 0 0 1 .81-.849h.01c.465 0 .84.38.84.849 0 .47-.375.85-.84.85Zm-4.88-.85c.02.46.395.821.85.8a.821.821 0 0 0 .78-.859.817.817 0 0 0-.82-.801.855.855 0 0 0-.81.86Zm-4.07 0c.02.46.395.821.85.8a.821.821 0 0 0 .78-.859.817.817 0 0 0-.82-.801.855.855 0 0 0-.81.86Zm8.14-3.639c0-.46.356-.83.81-.84.445 0 .8.359.82.8a.82.82 0 0 1-.79.849.814.814 0 0 1-.84-.799v-.01Z" fill="currentColor"></path>
+                                 <path opacity=".4" d="M3.003 9.257c.013-.587.063-1.752.156-2.127.474-2.11 2.084-3.45 4.386-3.64h8.911c2.282.2 3.912 1.55 4.386 3.64.092.365.142 1.539.155 2.127H3.003Z" fill="currentColor"></path>
+                                 <path d="M8.305 6.59c.435 0 .76-.329.76-.77V2.771A.748.748 0 0 0 8.306 2c-.435 0-.76.33-.76.771V5.82c0 .441.325.77.76.77ZM15.695 6.59c.425 0 .76-.329.76-.77V2.771a.754.754 0 0 0-.76-.771c-.435 0-.76.33-.76.771V5.82c0 .441.325.77.76.77Z" fill="currentColor"></path>
+                              </svg>
+                              <span>Akad</span>
+                           </li>
+                           <li class="towerbarat_menu_item">
+                              <i class="icon ph-fill ph-map-pin" style="color: currentColor;"></i>
+                              <span>Maps</span>
+                           </li>
+                           <li class="towerbarat_menu_item">
+                              <i class="icon ph-fill ph-hands-praying" style="color: currentColor;"></i>
+                              <span>Thanks</span>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- end invitation -->
+                     <div class="floating-action d-flex align-items-end flex-column">   
+                        <button id="btnMusic" onclick="if (!window.__cfRLUnblockHandlers) return false; playMusic()" class="btn btn-float " data-cf-modified-9be3a489f37d4961367115b1-="">
+                           <svg class="play" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 256 256">
+                              <path d="M184,152V104a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm40-72a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,224,80ZM53.92,34.62A8,8,0,1,0,42.08,45.38L73.55,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V175.09l42.08,46.29a8,8,0,1,0,11.84-10.76Zm92.16,77.59A8,8,0,0,0,160,106.83V32a8,8,0,0,0-12.91-6.31l-39.85,31a8,8,0,0,0-1,11.7Z"></path>
+                           </svg>
+                           <svg class="pause" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 256 256">
+                              <path d="M160,32V224a8,8,0,0,1-12.91,6.31L77.25,176H32a16,16,0,0,1-16-16V96A16,16,0,0,1,32,80H77.25l69.84-54.31A8,8,0,0,1,160,32Zm32,64a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V104A8,8,0,0,0,192,96Zm32-16a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,224,80Z"></path>
+                           </svg>
+                        </button>
+                        <button id="btnAutoplay" class="btn btn-float ">
+                           <svg class="play" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 256 256">
+                              <path d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24Zm36.44,110.66-48,32A8.05,8.05,0,0,1,112,168a8,8,0,0,1-8-8V96a8,8,0,0,1,12.44-6.66l48,32a8,8,0,0,1,0,13.32Z"></path>
+                           </svg>
+                           <svg class="pause" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 256 256">
+                              <path d="M128,24A104,104,0,1,0,232,128,104.13,104.13,0,0,0,128,24ZM112,160a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Zm48,0a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Z"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- lightbox -->
+         <div id="lightboxWrapper" class="lightbox-wrapper">
+            <div class="lightbox-list"></div>
+            <a href="#" id="lightboxCloseBtn" class="btn-lightbox">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 0 1 1.414 0L10 8.586l4.293-4.293a1 1 0 1 1 1.414 1.414L11.414 10l4.293 4.293a1 1 0 0 1-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L8.586 10 4.293 5.707a1 1 0 0 1 0-1.414z" clip-rule="evenodd"></path>
+               </svg>
+            </a>
+            <div class="lightbox-navigation">
+               <a href="#" id="lightboxPrevBtn" class="lightbox-arrow" data-index="0">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"></path>
+                  </svg>
+               </a>
+               <a href="#" id="lightboxNextBtn" class="lightbox-arrow" data-index="0">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path>
+                  </svg>
+               </a>
+            </div>
+         </div>
+         <!-- end lightbox -->
+      </main>
+      <!-- start script -->
+      <script src="js/themesv2.js" type="9be3a489f37d4961367115b1-text/javascript"></script>
+      <!-- end script -->
+      <script type="9be3a489f37d4961367115b1-text/javascript"></script>
+      <script src="js/rocket-loader.min.js" data-cf-settings="9be3a489f37d4961367115b1-|49" defer=""></script><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" data-cf-beacon="{" rayid":"8b945281eaf96572","servertiming":{"name":{"cfl4":true}},"version":"2024.8.0","token":"bb94421b81454f668eb9cf5cf8e9f0cb"}"="" crossorigin="anonymous"></script>
+   </body>
+</html>
